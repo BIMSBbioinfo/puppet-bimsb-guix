@@ -1,0 +1,14 @@
+{
+  "name": "bimsb-guix",
+  "version": "0.0.1",
+  "author": "Ricardo Wurmus",
+  "summary": "Install the latest binary release of GNU Guix",
+  "license": "GPL-3+",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
