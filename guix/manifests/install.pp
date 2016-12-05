@@ -41,24 +41,10 @@ class guix::install inherits guix {
     }
   }
 
-  guixbuild_user("01")
-  guixbuild_user("02")
-  guixbuild_user("03")
-  guixbuild_user("04")
-  guixbuild_user("05")
-  guixbuild_user("06")
-  guixbuild_user("07")
-  guixbuild_user("08")
-  guixbuild_user("09")
-  guixbuild_user("10")
-  guixbuild_user("11")
-  guixbuild_user("12")
-  guixbuild_user("13")
-  guixbuild_user("14")
-  guixbuild_user("15")
-  guixbuild_user("16")
-  guixbuild_user("17")
-  guixbuild_user("18")
-  guixbuild_user("19")
-  guixbuild_user("20")
+  guixbuild_user { [ "01", "02", "03", "04", "05",
+                     "06", "07", "08", "09", "10",
+                     "11", "12", "13", "14", "15",
+                     "16", "17", "18", "19", "20",
+                     ]:
+  }
 }
